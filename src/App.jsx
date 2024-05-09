@@ -10,8 +10,8 @@ import CityList from "./components/CityList"
 import CountryList from "./components/CountryList"
 import City from "./components/City"
 import Form from "./components/Form"
-import { CitiesProvider, useCities } from "./contexts/CitiesContext"
-import { AuthProvider, useAuth} from "./contexts/FakeAuthContext"
+import { CitiesProvider} from "./contexts/CitiesContext"
+import { AuthProvider} from "./contexts/FakeAuthContext"
 import ProviderRoute from "./pages/ProviderRoute"
 
 
