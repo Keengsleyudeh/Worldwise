@@ -5,7 +5,6 @@ import Message from './Message';
 import Spinner from './Spinner';
 
 function CityList() {
-    console.log("Meeee");
     const {cities, isLoading} = useCities()
     if (isLoading) return <Spinner />;
 
