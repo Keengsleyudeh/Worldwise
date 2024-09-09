@@ -12,6 +12,7 @@ import { useUrlPosition } from '../hooks/useUrlPosition';
 function Map() {
    const navigate =  useNavigate()
    const {cities} = useCities();
+   console.log(cities);
 
    const [mapPosition, setMapPosition] = useState([40, 0])
 
